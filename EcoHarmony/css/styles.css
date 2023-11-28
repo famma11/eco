@@ -1,0 +1,272 @@
+h1, h2, h3
+  {
+    font-family: 'Playfair Display', serif;
+  }
+p 
+  {
+    font-family: 'Open Sans', sans-serif;
+
+  }
+/* Containers */
+.custom-container
+  {
+      padding: 5% 3%;
+  }
+
+/****************** Navigation Bar **************/
+#logo
+    {
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        margin-bottom: 10px;
+        margin-left: 90px;
+    }
+.navbar-nav
+    {
+        margin-right: 90px;
+        color: white;
+    }
+.nav-item
+    {
+        margin-left: 20px;
+        font-weight: lighter;
+        color: white;
+    }
+    /* left-margin of navbar items */
+.left
+    {
+        margin-left: auto;
+    }
+.nav-link {
+        color: white; 
+      }
+.nav-link:hover {
+        color: #2E3D47; 
+      }
+/************************************************* Title section ***********************************************/
+#title
+    {
+        background-color: #B5DFCB;
+        color: #2E3D47;
+        line-height: 1;
+      
+    }
+.main-heading
+    {
+        color: #1E2A32;
+        font-family: 'Playfair Display', serif;
+        font-size: 4rem;
+        width: 80%;
+    }
+    /* column div */
+.divt 
+    {
+        padding-top: 7%;
+    }
+.button-n-title
+    {
+        position: relative;
+        top:30%;
+    }
+/* Download Buttons */
+.button-download
+    {
+        margin-right: 3%;
+    }
+.button-download:hover
+    {
+        transform: scale(1.1);
+        transition: color 0.3s ease, transform 0.3s ease
+    }
+/* Title Image */
+.img-phone
+    {
+        width: 20rem;
+        transform: rotate(-10deg);
+        position: relative;
+        left: 20%;
+        
+    }
+.img-phone:hover
+    {
+        transform: scale(1);
+    }
+/********************************* Features section ********************************************/
+#features
+    {
+        padding: 0 10%;
+        background-color: white;
+        position: relative;
+        z-index: 1;
+    }
+.features-sect
+    {
+        padding: 7%;
+        text-align: center;
+        margin-top: 50px;
+    }
+.features-titles
+    {
+        color: #2E3D47;
+    }
+.icon
+    {
+        color: #59866e;
+        font-size: 5rem;
+        height: 5rem;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+.icon:hover
+    {
+        color: #1E2A32;
+        transform: scale(1.1);
+    }
+/********************************* Testimonials section********************************************/
+#testimonials
+    {
+
+        text-align: center;
+        background-color: #B5DFCB; 
+    }
+/* images */
+.lady2-img
+    {
+        border-radius: 100%;
+        width: 10%;
+        margin: 20px;
+    }
+.lady-img
+    {
+        border-radius: 100%;
+        width: 10%;
+        margin: 20px; 
+    }
+.review
+    {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 1.7rem;  
+        line-height: 2;
+        width: 70%;
+        margin: auto;
+    }
+.carousel-item
+    {
+        padding: 5% 15% 2%;
+    }
+
+
+/********************************* Prices/Plans section ********************************************/
+
+#pricing
+    {
+        padding: 5% 10% 2%;
+        text-align: center;
+    }
+.pricing-h2
+    {
+        font-size: 3rem;
+        margin-bottom: 30px;
+        color: #2E3D47;
+    }
+.price-h2
+    {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        color: #2E3D47;
+    }
+.col 
+    {
+        margin: 50px auto;
+    }
+.plan-names
+    {
+        color: #fff;
+    }
+
+
+.card-header 
+    {
+        background-color: #59866e; 
+        color: #fff; 
+        border-bottom: none;
+        border-radius: 10px 10px 0 0; 
+    }
+.button-signup
+    {
+        background-color: #2E3D47;
+        border: none;
+        transition: background-color 0.3s ease, color 0.3s ease; 
+        color: #fff;
+        padding: 2% 35%;
+        margin: auto;
+    }
+.button-signup:hover 
+    {
+        background-color: #59866e; 
+        border: none;
+        color: #fff; 
+    }
+/********************************* cta section ********************************************/
+#cta
+    {
+        padding: 10%;
+        text-align: center;
+        background-color: #59866e;
+        
+    }
+.cta-h3
+    {
+        color: #fff;
+        font-size: 3rem;
+    }
+.button-download2
+    {
+        margin: 50px 10px;
+    }
+/********************************* footer section ********************************************/
+#footer
+    {
+        padding: 5%;
+        text-align: center;
+    }
+.ft-icon
+    {
+        color: #2E3D47;
+        margin: 20px 10px;
+    }
+.copyright-txt
+    {
+        color: #2E3D47;
+    }
+/* Media queries */
+
+@media (max-width:992px) {
+#title
+{
+text-align: center;
+margin: auto;
+}
+.img-phone
+{
+
+    text-align: center;
+    margin-left: 10px;
+    width: 0
+    
+}
+h1 
+{
+    margin: auto;
+}
+#logo
+{
+    margin-left: 10px;
+}
+
+.navbar-nav
+{
+    text-align: left;
+}
+}
